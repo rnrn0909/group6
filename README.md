@@ -11,13 +11,15 @@ To put it concretely, this project collects random audio which is free to use fr
 - show features with spectrogram and histogram
 - provide toolbox
 - Options for toolbox:
-    -h or -help: provides a guide to use this toolbox
-    -s [KEYWORD]
-        KEYWORD:
-            collect start to collect random audio files
-            spec    show spectrogram from FFT result
-            pitch   show peaks on spectrogram
-            histo   show histogram
+  ```sh
+    -h or -help : provides a guide to use this toolbox 
+    -s [KEYWORD] : execute depending on provided keyword
+    KEYWORD
+      collect : start to collect random audio files
+      spec : show spectrogram from FFT result
+      pitch : show peaks on spectrogram
+      histo : show histogram
+  ```
 
 ## Util
 - [youtube_dl]
