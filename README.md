@@ -25,6 +25,7 @@ To put it concretely, this project collects random audio which is free to use fr
 - [youtube_dl]
 - [librosa]
 - [scipy]
+- [ffmpeg]
 
 
 ## Task 2
