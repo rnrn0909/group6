@@ -32,4 +32,18 @@ To put it concretely, this project collects random audio which is free to use fr
  - extract peaks as discrete pairs
  - generate hashes from pairs
  - build classification models implementing k-fold cross validation
+ - expand options on existing toolbox
+ - Options for toolbox:
+  ```sh
+    -h or -help : provides a guide to use this toolbox 
+    -s [KEYWORD] : execute depending on provided keyword
+    KEYWORD
+      collect : start to collect random audio files
+      spec : show spectrogram from FFT result
+      hash : collect hash of peaks
+      histo : show histogram
+      classify: execute classification models
+  ```
  
+ ## Util
+- [scikit-learn]
