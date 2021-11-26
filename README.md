@@ -42,8 +42,12 @@ To put it concretely, this project collects random audio which is free to use fr
       spec : show spectrogram from FFT result
       hash : collect hash of peaks
       histo : show histogram
-      classify: execute classification models
+      KNN : execute KNN classification model
+      RF : execute RF classification model
+      SVM : execute SVM classification model
   ```
  
  ## Util
 - [scikit-learn]
+- [pandas]
+- [numpy]
